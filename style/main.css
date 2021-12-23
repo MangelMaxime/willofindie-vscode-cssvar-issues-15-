@@ -1,0 +1,8 @@
+@import-glob "./variables/**/*.ccss";
+
+@import "normalize.css";
+
+.title {
+    margin: var(--spacing-6);
+    color: var(--text-primary);
+}

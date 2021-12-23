@@ -1,0 +1,5 @@
+{
+    "cssvar.files": [
+        "style/variables/*.css"
+    ]
+}

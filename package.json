@@ -1,0 +1,24 @@
+{
+  "name": "css-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-server": "live-server --no-browser",
+    "watch-postcss": "npx postcss style/main.css -o public/style.css --watch",
+    "watch": "concurrently -p none 'npm:watch-*'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "live-server": "^1.2.1",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-import-ext-glob": "^2.0.1",
+    "postcss-nesting": "^10.0.2",
+    "postcss-preset-env": "^7.0.1"
+  }
+}
